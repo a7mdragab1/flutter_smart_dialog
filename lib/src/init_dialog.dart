@@ -3,7 +3,6 @@ import '../flutter_smart_dialog.dart';
 import 'config/smart_config_attributes.dart';
 import 'helper/navigator_observer.dart';
 import 'kit/view_utils.dart';
-import 'widget/default/notify_widget.dart';
 import 'helper/dialog_proxy.dart';
 import 'helper/pop_monitor/boost_route_monitor.dart';
 import 'helper/pop_monitor/monitor_pop_route.dart';

@@ -80,7 +80,9 @@ class _AttachWidgetState extends State<AttachWidget> {
   void didUpdateWidget(covariant AttachWidget oldWidget) {
     if (oldWidget.originChild != widget.originChild ||
         oldWidget.targetContext != widget.targetContext ||
-        oldWidget.targetBuilder != widget.targetBuilder) _resetState();
+        oldWidget.targetBuilder != widget.targetBuilder) {
+      _resetState();
+    }
     super.didUpdateWidget(oldWidget);
   }
 
